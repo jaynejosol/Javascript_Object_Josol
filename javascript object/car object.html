@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascipt Object</title>
+    </head>
+
+<body>
+  <h2>car object</h2>
+  <p>check console</p>
+  <script>
+    class Car {
+        constructor(Name, YearModel, EngineType, Manufacturer, Brand, CountryOrigin) {
+            this.Name = Name;
+            this.YearModel = YearModel;
+            this.EngineType = EngineType;
+            this.Manufacturer = Manufacturer;
+            this.Brand = Brand;
+            this.CountryOrigin = CountryOrigin;
+        }
+    }
+
+    let car = new Car("Civic", 2020, "V6", "Honda", "Sedan", "Japan");
+    console.log(car);
+
+  </script>
+
+</body>
+</html>
